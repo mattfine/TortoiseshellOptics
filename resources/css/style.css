@@ -1,0 +1,81 @@
+/* Global Settings */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h3 {
+  font-weight: bold;
+}
+
+span, p, li {
+  font-size: 1rem;
+}
+
+/* Header Settings */
+.background {
+  background-image: url("../images/background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31rem;
+  width: 100%;
+}
+
+.background .flexb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10rem;
+}
+
+.title h1 {
+  padding: 1.5rem 5rem;
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-right: -2rem;
+}
+
+/* Content Settings */
+
+/* Footer Settings */

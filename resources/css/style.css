@@ -83,6 +83,56 @@ nav li {
   margin-right: -2rem;
 }
 
+@media only screen and (max-width: 960px) {
+  .background {
+    height: 22rem;
+  }
+
+  .flex {
+    margin-top: 5rem;
+  }
+
+  .title h1 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .background {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .flex {
+    margin-top: 9rem;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+
+  .title h1 {
+    padding: 1rem 0;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .logo span {
+    display: none;
+  }
+}
+
 /* Content Settings */
 .services {
   display: flex;
@@ -98,6 +148,27 @@ nav li {
   width: 5rem;
   margin: 3rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 625px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group {
+    margin: 3.77rem 0 2.23rem 0;
+  }
+
+  .service {
+    margin: 0;
+    height: auto;
+  }
+
+  .service span {
+    margin: 1.54rem 0;
+    font-size: 0.77rem;
+  }
 }
 
 .service img {
@@ -123,6 +194,24 @@ img.paper {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 625px) {
+  .info {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .info h3 {
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .info p {
+    padding: 0 0.5rem;
+    font-size: 0.77rem;
+  }
+}
+
 /* Footer Settings */
 footer {
   display: flex;
@@ -133,4 +222,18 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+@media only screen and (max-width: 625px) {
+  footer {
+    justify-content: center;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer img {
+    padding: 4rem 0;
+  }
 }

@@ -14,7 +14,7 @@ h1, h3 {
   font-weight: bold;
 }
 
-span, p, li {
+span, p, li, h3 {
   font-size: 1rem;
 }
 
@@ -34,6 +34,13 @@ span, p, li {
   align-items: center;
   background-color: cadetblue;
   color: white;
+}
+
+@media only screen and (min-width: 960px) {
+  .background .flexb {
+    position: relative;
+    top: 1rem;
+  }
 }
 
 .logo {
@@ -77,5 +84,53 @@ nav li {
 }
 
 /* Content Settings */
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.service img {
+  width: 5rem;
+}
+
+img.paper {
+  width: 3.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 2.5% 5rem 2.5%;
+}
+
+.info h3 {
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 1rem;
+}
 
 /* Footer Settings */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
